@@ -1,0 +1,68 @@
+.mainContainer {
+  width: 1100px;
+  height: 677px;
+  border: 2px solid black;
+  float: left;
+  display: inline-block;
+  background: teal
+
+}
+
+.imageContainer {
+  background-image: url('/Users/mgarroyo/WDI_Workspace/w03/d03/project-1-game/image/6.31-1024x677.jpg');
+  width: 50%;
+  margin: 0 auto;
+  width: 1024px;
+  height: 600px;
+}
+
+.start {
+  width: 20%;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 650px;
+  width: 1024px;
+}
+
+.ballContainer {
+  height: 425px;
+  width: 1024px;
+  margin-top: 30px;
+  /*border: 2px solid black;*/
+  position: relative;
+}
+
+#timer {
+  color: red;
+  float: left;
+}
+
+.title {
+  float: left;
+}
+
+#scoreboard {
+  float: right;
+}
+
+.asideMuthaFucka {
+  float: left;
+  display: block;
+  height: 677px;
+  width: 150px;
+  border: 1px solid black
+}
+
+.reset {
+  width: 150px;
+  height: 50px;
+  font-size: 30px
+}
