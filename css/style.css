@@ -9,8 +9,8 @@
 }
 
 .imageContainer {
-  background-image: url('/Users/mgarroyo/WDI_Workspace/w03/d03/project-1-game/image/6.31-1024x677.jpg');
-  background-image: url('https://github.com/rpoindexter37/Concert-Security/blob/master/image/6.31-1024x677.jpg?raw=true');
+  background-image: url('../image/6.31-1024x677.jpg');
+  /*background-image: url('https://github.com/rpoindexter37/Concert-Security/blob/master/image/6.31-1024x677.jpg?raw=true');*/
   width: 50%;
   margin: 0 auto;
   width: 1024px;

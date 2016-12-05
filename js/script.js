@@ -2,14 +2,14 @@
 
     var containerWidth = $('#ballContainer').width()
     var containerHeight = $('#ballContainer').height() + 30
-    var ballSpeed = 50
+    var ballSpeed = 35
     var $timer = $('#timer')
     var createBeachBallInterval = 1000
     var currentPlayerScore = 0
     var Player1ScoreFinal = 0
     var Player2ScoreFinal = 0
     var currentPlayerIndex = 0
-    var startTime = 7
+    var startTime = 30
     var player = ["Player1", "Player2", "No one"]
     var $manipulateBallCreator
     var manipulatetimer
