@@ -5,7 +5,7 @@
 A two player game where you attempt to click on the moving balls and get a higher number than your opponent.  
 
 
-![Sample of gameplay](./ScreenShot2016-12-06at9.43.41AM.png)
+![Sample of gameplay](https://github.com/rpoindexter37/Concert-Security/blob/master/Screen%20Shot%202016-12-06%20at%209.43.41%20AM.png?raw=true)
 
 ### Controls
 
