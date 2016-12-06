@@ -2,7 +2,7 @@
 
     var containerWidth = $('#ballContainer').width()
     var containerHeight = $('#ballContainer').height() + 30
-    var ballSpeed = 35
+    var ballSpeed = 30
     var $timer = $('#timer')
     var createBeachBallInterval = 1000
     var currentPlayerScore = 0
@@ -70,12 +70,13 @@ function BeachBall() {
                     var vy = 0
                     var ay = 2
                     //need to replace genRandomNum with a function that starts at a certian size and gets smaller
-                    var $newBall = $('<div>').css({
-                      height: '50px',
-                      width: '50px',
+                    var $newBall = $('<div><img src="http://www.pngall.com/wp-content/uploads/2016/06/Beach-Ball-PNG-Image.png"></div>').css(
+                    {
+                      height: '100px',
+                      width: '100px',
                       borderRadius: "50%",
                       //we can keep this for now but would like two or more colors in each ball
-                      background: getRandomColor(),
+                      backgroundImage: getRandomColor(),
                       position: 'absolute',
 
                     }).addClass('ball').attr('id','ball')
