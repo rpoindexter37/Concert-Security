@@ -9,11 +9,12 @@
     var Player1ScoreFinal = 0
     var Player2ScoreFinal = 0
     var currentPlayerIndex = 0
-    var startTime = 30
+    var startTime = 5
     var player = ["Player1", "Player2", "No one"]
     var $manipulateBallCreator
     var manipulatetimer
     var replayButton
+
 
 
     $('.start').click($createBeachBall)
@@ -218,14 +219,22 @@ function BeachBall() {
 
                   var outcome = [$replayButton, $ok]
 
+                  var randColorFlasher = setInterval(function(){
+                    var randomColor = getRandomColor()
+                    $('#endPromt').css({
+                      backgroundColor: randomColor
+                    })
+                  }, 500)
+
                   var $endPromt = $('<div></div>').css({
-                    height: '150px',
-                    width: '400px',
+                    height: '300px',
+                    width: '425px',
                     position: 'absolute',
                     top: '50%',
                     left: '50%',
-                    background: 'grey',
-                    fontSize: '40px'
+                    color: 'blue',
+                    // background: 'grey',
+                    fontSize: '75px'
                   })
                   .addClass('endPromt')
                   .attr('id','endPromt')

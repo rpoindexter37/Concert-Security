@@ -5,7 +5,7 @@
 A two player game where you attempt to click on the moving balls and get a higher number than your opponent.  
 
 
-![Sample of gameplay](./Screen Shot 2016-12-05 at 3.27.47 PM.png)
+![Sample of gameplay](./Screen Shot 2016-12-06 at 9.43.41 AM)
 
 ### Controls
 
@@ -32,4 +32,4 @@ Make code more readable for future implementations.
 There is a lot of styling that I did not have time for, so the game needs a visual overhaul.
 I would also like the difficulty of the game to increase with the clock.
 The replay button is not in an obvious place.
-There is no page explaining this game and therefor is not easy to understand why there are circles bouncing and what the user needs to do. 
+There is no page explaining this game and therefor is not easy to understand why there are circles bouncing and what the user needs to do.
