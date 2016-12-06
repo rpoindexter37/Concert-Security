@@ -9,11 +9,12 @@
     var Player1ScoreFinal = 0
     var Player2ScoreFinal = 0
     var currentPlayerIndex = 0
-    var startTime = 5
+    var startTime = 30
     var player = ["Player1", "Player2", "No one"]
     var $manipulateBallCreator
     var manipulatetimer
     var replayButton
+
 
 
 
